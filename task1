@@ -3,7 +3,7 @@ const userAge = parseInt(process.argv[3]);
 const student = process.argv[4] === 'true';
 
 function message(name, age, student) {
-  let message = 'Hey my name is ${name}';
+  let message = 'Hello, my name is ${name}';
   if (student) {
     message += ' and I am a student.';
   }
