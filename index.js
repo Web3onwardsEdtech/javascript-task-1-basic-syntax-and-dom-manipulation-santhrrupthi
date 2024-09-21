@@ -7,10 +7,22 @@ function message(name, age, student) {
   if (student) {
     message += ' and I am a student.';
   }
-  if (age <= 8) {
+  if (age <= 18) {
     let message=' you are a minor';
   } else
    {
     console.log(message);
   }
+}
+
+
+let toggleValue=false;
+function toggleBoolean(value)
+{
+    return !value;
+}
+if (process.avg[2]=='toggle')
+{
+    toggleValue=toggleBoolean(toggleValue);
+   console.log('Toggle value:${toggleValue}');
 }
